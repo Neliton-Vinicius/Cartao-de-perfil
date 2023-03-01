@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Gemstones&family=VT323&family=Zeyada&display=swap');
+
+:root {
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Kumbh Sans';
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    
+}
+
+hr{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 325px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+    
+}
+
+.container .informacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.info-numeros {
+    display: flex;
+    margin-top: auto;
+}
+
+.info-numeros .numeros {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+
+}
+
+.numeros .dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.bold {
+    font-weight: 700;
+}
+
+ strong {
+    color: var(--text-color);
+}
+
+img {
+    border-radius: 50px;
+}
